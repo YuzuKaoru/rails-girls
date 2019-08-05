@@ -1,5 +1,6 @@
 body {
   background-color: #fff;
+  background-image: image-url("email-pattern.png");
   color: #333;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -81,4 +82,22 @@ div {
 
 label {
   display: block;
+}
+
+.container{
+  background-color: #fff;
+}
+
+.new_idea {
+  color: #ffb6c1;
+  font-weight: bold;
+
+  &:visited {
+    color: #ffb6c1;
+  }
+
+  &:hover {
+    color: #ffb6c1;
+    background-color: #000;
+  }
 }
